@@ -85,7 +85,7 @@ Then run `npm test` to see the results.
     hello("Reuben Ogbonna"); // "Hello, Reuben Ogbonna!"
     ```
 
-2. Write a function that takes in two numbers and returns the product (multiple those numbers together):
+2. Write a function that takes in two numbers and returns the product (multiply those numbers together):
 
     Examples:
     ```javascript
