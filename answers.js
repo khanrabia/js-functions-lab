@@ -42,19 +42,36 @@ function makeOpposite(num) {
 console.log(makeOpposite(5));
 
 // Question 5
-function logEvenNumbers() {
+function logEvenNumbers(num) {
   // Write your code here
-}
+    for(let i = 0; i <= 50; i+=2)
+      console.log(i);
+      return "Why is 6 afraid of 7?"
+  } 
+
+console.log(logEvenNumbers(10));
 
 // Question 6
-function sumFoursAndSevens() {
+function sumFoursAndSevens(num) {
+  // Write your code here
+    let total = 0;
+  for(let i = 0; i <= num; i++)
+    if(i % 4 === 0 || i % 7 === 0){
+      console.log(i);
+      total += Number((i));
+    }
+      return total; 
+}
+
+console.log(sumFoursAndSevens(7));
+
+// Question 7
+function exsAndOhs(num) {
   // Write your code here
 }
 
-// Question 7
-function exsAndOhs() {
-  // Write your code here
-}
+
+console.log(exsAndOhs(5));
 
 // Do NOT touch or write anything below this line
 module.exports = {
