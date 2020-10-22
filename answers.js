@@ -1,22 +1,45 @@
 // Question 1
-function hello() {
+function hello(name) {
   // Write your code here
+    return `Hello, ${name}!`
+    
 }
+
+console.log(hello("Maya"));
 
 // Question 2
-function findProduct() {
+function findProduct(x, y) {
   // Write your code here
+  let product = x*y;
+  return product;
+ 
+  
 }
+console.log(findProduct(3,5));
 
 // Question 3
-function getSquare() {
+function getSquare(x) {
   //Write your code here
+  let area = x*x;
+  return area;
 }
 
+console.log(getSquare(5));
+
 // Question 4
-function makeOpposite() {
+function makeOpposite(num) {
   //Write your code here
+  if (num < 0 || num > 0 ){
+    num = num * -1;
+    
+
+      return num;
+  } 
+    else{
+      console.log(0);
+    }
 }
+console.log(makeOpposite(5));
 
 // Question 5
 function logEvenNumbers() {
